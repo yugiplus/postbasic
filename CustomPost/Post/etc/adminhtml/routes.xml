@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+	<router id="admin">
+		<route frontName="custompost_post" id="custompost_post">
+			<module before="Magento_Backend" name="CustomPost_Post"/>
+		</route>
+		<route frontName="AdminPost" id="AdminPost">
+			<module before="Magento_Backend" name="CustomPost_Post"/>
+		</route>
+	</router>
+</config>

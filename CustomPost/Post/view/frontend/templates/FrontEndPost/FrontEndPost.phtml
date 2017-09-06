@@ -1,0 +1,4 @@
+<?php foreach($block->getPosts() as $post): ?>
+    <h2><a href="<?php echo $block->getPostUrl($post);?>"><?php echo $post->getTitle(); ?></a></h2>
+    <p><?php echo $post->getContent(); ?></p>
+<?php endforeach; ?>

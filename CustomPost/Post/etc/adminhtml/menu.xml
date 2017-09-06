@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="CustomPost::top_level" module="CustomPost_Post" resource="Magento_Backend::content" sortOrder="9999" title="CustomPost"/>
+		<add action="custompost_post/post/index" id="CustomPost::custompost_post" module="CustomPost_Post" parent="CustomPost::top_level" resource="Magento_Backend::content" sortOrder="9999" title="Add Post"/>
+	</menu>
+</config>
